@@ -1,0 +1,675 @@
+2022-02-24 16:39:20,978 ERROR 35982 [-/127.0.0.1/-/1ms GET /api/popular/list?type=text] nodejs.TypeError: Expected the arguments to be of type `string`
+    at module.exports (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/split-on-first/index.js:5:9)
+    at Object.exports.parseUrl (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/query-string/index.js:428:23)
+    at PopularController.list (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/popular.js:104:34)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 35982
+hostname: JuvoS.lan
+
+2022-02-24 16:39:44,865 ERROR 36009 [-/127.0.0.1/-/1ms GET /api/popular/list?type=text] nodejs.TypeError: Expected the arguments to be of type `string`
+    at module.exports (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/split-on-first/index.js:5:9)
+    at Object.exports.parseUrl (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/query-string/index.js:428:23)
+    at PopularController.list (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/popular.js:104:34)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 36009
+hostname: JuvoS.lan
+
+2022-02-24 16:40:14,438 ERROR 36024 [-/127.0.0.1/-/2ms GET /api/popular/list?type=text] nodejs.TypeError: Expected the arguments to be of type `string`
+    at module.exports (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/split-on-first/index.js:5:9)
+    at Object.exports.parseUrl (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/query-string/index.js:428:23)
+    at PopularController.list (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/popular.js:105:34)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 36024
+hostname: JuvoS.lan
+
+2022-02-24 16:40:29,429 ERROR 36034 [-/127.0.0.1/-/1ms GET /api/popular/list?type=text] nodejs.TypeError: Expected the arguments to be of type `string`
+    at module.exports (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/split-on-first/index.js:5:9)
+    at Object.exports.parseUrl (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/query-string/index.js:428:23)
+    at PopularController.list (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/popular.js:105:34)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 36034
+hostname: JuvoS.lan
+
+2022-02-24 16:40:50,379 ERROR 36043 [-/127.0.0.1/-/4ms GET /api/popular/list?type=text] nodejs.TypeError: Expected the arguments to be of type `string`
+    at module.exports (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/split-on-first/index.js:5:9)
+    at Object.exports.parseUrl (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/query-string/index.js:428:23)
+    at PopularController.list (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/popular.js:105:34)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 36043
+hostname: JuvoS.lan
+
+2022-02-24 17:38:16,356 ERROR 37639 [-/127.0.0.1/-/3ms GET /api/list/policy?current=1&pageSize=20] nodejs.TypeError: qs.parseUrl is not a function
+    at PolicyController.list (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/policy.js:8:47)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 37639
+hostname: JuvoS.lan
+
+2022-02-24 17:38:36,192 ERROR 37639 [-/127.0.0.1/-/1ms GET /api/list/policy?current=1&pageSize=20] nodejs.TypeError: qs.parseUrl is not a function
+    at PolicyController.list (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/policy.js:8:47)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 37639
+hostname: JuvoS.lan
+
+2022-02-24 17:38:44,359 ERROR 37639 [-/127.0.0.1/-/0ms GET /api/list/policy?current=1&pageSize=20] nodejs.TypeError: qs.parseUrl is not a function
+    at PolicyController.list (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/policy.js:8:47)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 37639
+hostname: JuvoS.lan
+
+2022-02-25 10:03:37,672 ERROR 43891 [-/127.0.0.1/-/2ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:82:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 43891
+hostname: JuvoS.lan
+
+2022-02-25 10:03:37,676 ERROR 43891 [-/127.0.0.1/-/0ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:82:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 43891
+hostname: JuvoS.lan
+
+2022-02-25 10:03:37,678 ERROR 43891 [-/127.0.0.1/-/0ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:82:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 43891
+hostname: JuvoS.lan
+
+2022-02-25 10:03:37,680 ERROR 43891 [-/127.0.0.1/-/0ms POST /api/content-period-analysis] nodejs.ReferenceError: Mock is not defined
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:53:60
+    at Array.map (<anonymous>)
+    at getLineData (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:53:38)
+    at ContentController.period (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:62:11)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 43891
+hostname: JuvoS.lan
+
+2022-02-25 10:03:37,681 ERROR 43891 [-/127.0.0.1/-/1ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:82:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 43891
+hostname: JuvoS.lan
+
+2022-02-25 10:04:18,725 ERROR 43891 [-/127.0.0.1/-/1ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:82:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 43891
+hostname: JuvoS.lan
+
+2022-02-25 10:04:18,728 ERROR 43891 [-/127.0.0.1/-/1ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:82:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 43891
+hostname: JuvoS.lan
+
+2022-02-25 10:04:18,731 ERROR 43891 [-/127.0.0.1/-/1ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:82:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 43891
+hostname: JuvoS.lan
+
+2022-02-25 10:04:18,734 ERROR 43891 [-/127.0.0.1/-/1ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:82:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 43891
+hostname: JuvoS.lan
+
+2022-02-25 10:04:18,746 ERROR 43891 [-/127.0.0.1/-/0ms POST /api/content-period-analysis] nodejs.ReferenceError: Mock is not defined
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:53:60
+    at Array.map (<anonymous>)
+    at getLineData (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:53:38)
+    at ContentController.period (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:62:11)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 43891
+hostname: JuvoS.lan
+
+2022-02-28 09:49:02,029 ERROR 19251 [-/127.0.0.1/-/1ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:82:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19251
+hostname: JuvoS.lan
+
+2022-02-28 09:49:02,035 ERROR 19251 [-/127.0.0.1/-/0ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:82:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19251
+hostname: JuvoS.lan
+
+2022-02-28 09:49:02,037 ERROR 19251 [-/127.0.0.1/-/1ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:82:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19251
+hostname: JuvoS.lan
+
+2022-02-28 09:49:02,039 ERROR 19251 [-/127.0.0.1/-/1ms POST /api/content-period-analysis] nodejs.ReferenceError: Mock is not defined
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:53:60
+    at Array.map (<anonymous>)
+    at getLineData (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:53:38)
+    at ContentController.period (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:62:11)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19251
+hostname: JuvoS.lan
+
+2022-02-28 09:49:02,041 ERROR 19251 [-/127.0.0.1/-/1ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:82:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19251
+hostname: JuvoS.lan
+
+2022-02-28 09:49:54,970 ERROR 19337 [-/127.0.0.1/-/14ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:83:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19337
+hostname: JuvoS.lan
+
+2022-02-28 09:49:54,974 ERROR 19337 [-/127.0.0.1/-/1ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:83:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19337
+hostname: JuvoS.lan
+
+2022-02-28 09:49:54,979 ERROR 19337 [-/127.0.0.1/-/1ms POST /api/content-period-analysis] nodejs.ReferenceError: Mock is not defined
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:53:60
+    at Array.map (<anonymous>)
+    at getLineData (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:53:38)
+    at ContentController.period (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:62:11)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19337
+hostname: JuvoS.lan
+
+2022-02-28 09:49:54,984 ERROR 19337 [-/127.0.0.1/-/4ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:83:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19337
+hostname: JuvoS.lan
+
+2022-02-28 09:49:54,989 ERROR 19337 [-/127.0.0.1/-/2ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:83:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19337
+hostname: JuvoS.lan
+
+2022-02-28 09:51:59,806 ERROR 19408 [-/127.0.0.1/-/26ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:83:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19408
+hostname: JuvoS.lan
+
+2022-02-28 09:51:59,811 ERROR 19408 [-/127.0.0.1/-/4ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:83:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19408
+hostname: JuvoS.lan
+
+2022-02-28 09:51:59,820 ERROR 19408 [-/127.0.0.1/-/4ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:83:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19408
+hostname: JuvoS.lan
+
+2022-02-28 09:51:59,826 ERROR 19408 [-/127.0.0.1/-/3ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:83:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19408
+hostname: JuvoS.lan
+
+2022-02-28 09:51:59,831 ERROR 19408 [-/127.0.0.1/-/1ms POST /api/content-period-analysis] nodejs.ReferenceError: Mock is not defined
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:53:60
+    at Array.map (<anonymous>)
+    at getLineData (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:53:38)
+    at ContentController.period (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:62:11)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19408
+hostname: JuvoS.lan
+
+2022-02-28 09:54:30,203 ERROR 19479 [-/127.0.0.1/-/26ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:83:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19479
+hostname: JuvoS.lan
+
+2022-02-28 09:54:30,230 ERROR 19479 [-/127.0.0.1/-/22ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:83:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19479
+hostname: JuvoS.lan
+
+2022-02-28 09:54:30,255 ERROR 19479 [-/127.0.0.1/-/24ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:83:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19479
+hostname: JuvoS.lan
+
+2022-02-28 09:54:30,258 ERROR 19479 [-/127.0.0.1/-/1ms POST /api/content-period-analysis] nodejs.ReferenceError: Mock is not defined
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:53:60
+    at Array.map (<anonymous>)
+    at getLineData (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:53:38)
+    at ContentController.period (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:62:11)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19479
+hostname: JuvoS.lan
+
+2022-02-28 09:54:30,283 ERROR 19479 [-/127.0.0.1/-/23ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:83:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19479
+hostname: JuvoS.lan
+
+2022-02-28 09:56:40,742 ERROR 19539 [-/127.0.0.1/-/21ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:83:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19539
+hostname: JuvoS.lan
+
+2022-02-28 09:56:40,773 ERROR 19539 [-/127.0.0.1/-/26ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:83:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19539
+hostname: JuvoS.lan
+
+2022-02-28 09:56:40,779 ERROR 19539 [-/127.0.0.1/-/5ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:83:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19539
+hostname: JuvoS.lan
+
+2022-02-28 09:56:40,790 ERROR 19539 [-/127.0.0.1/-/8ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:83:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19539
+hostname: JuvoS.lan
+
+2022-02-28 10:00:22,459 ERROR 19653 [-/127.0.0.1/-/16ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:83:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19653
+hostname: JuvoS.lan
+
+2022-02-28 10:00:22,465 ERROR 19653 [-/127.0.0.1/-/2ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:98:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19653
+hostname: JuvoS.lan
+
+2022-02-28 10:00:22,469 ERROR 19653 [-/127.0.0.1/-/1ms POST /api/public-opinion-analysis] nodejs.ReferenceError: successResponseWrap is not defined
+    at ContentController.opinion (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/app/controller/content.js:83:7)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/juvos/Desktop/Juvos/CodeLab/eraAcro/era-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19653
+hostname: JuvoS.lan
+
